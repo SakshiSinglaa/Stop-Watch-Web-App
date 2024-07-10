@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 68vh;
+    background-color: rgb(252, 196, 92);
+}
+
+.stopwatch{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 15% 25%;
+    background-color: black;
+    color: beige;
+    border-radius: .8rem;
+}
+
+@media screen and (width: 200px) {
+    .stopwatch{
+        width: 100%;
+    }
+}
+
+h1{
+    padding-top: 2rem;
+    font-size: 4.5rem;
+}
+
+.icons{
+    padding-top: 1.8rem;
+    word-spacing: 2rem;
+}
+
+.icons a{
+    padding: .7rem;
+    border-radius: 50%;
+    background-color: orange;
+    cursor: pointer;
+}
